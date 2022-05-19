@@ -1,0 +1,16 @@
+class Solution {
+public:
+    void sortColors(vector<int>& nums) {
+        sort(nums.begin(),nums.end());
+    }
+};
+
+output:
+Accepted
+Runtime: 0 ms
+Your input
+[2,0,2,1,1,0]
+Output
+[0,0,1,1,2,2]
+Expected
+[0,0,1,1,2,2]
